@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ 
+# macOS
+.DS_Store
+ 
+# Environment / secrets
+.env
+ 
+# Outputs (재생성되는 파일)
+prompt_eval_predictions.csv
+prompt_eval_summary.csv
+ 
