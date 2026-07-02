@@ -14,10 +14,6 @@ Setup:
 For Ollama (free, local):
     ollama pull llama3.2:3b
     ollama serve
- 
-For Gemini (cloud):
-    Get free API key at https://aistudio.google.com/app/apikey
-    Set: GEMINI_API_KEY = "your-key-here"
 """
  
 import pandas as pd

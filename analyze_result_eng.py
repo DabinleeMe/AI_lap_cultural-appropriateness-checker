@@ -1,5 +1,5 @@
 """
-analyze_results.py  —  Analyze the evaluation results yourself
+analyze_results.py  —  Analyze the evaluation results 
 ================================================================
 [What this script does]
 Reads the per-row predictions file (prompt_eval_predictions.csv) and,
