@@ -99,7 +99,7 @@ Each example is written as "Step-by-step" reasoning + "FINAL: {json}", so the mo
 
 ---
 
-## How Step 3 will use this
+## How this will be used
 
 ```python
 from prompts import build_prompt

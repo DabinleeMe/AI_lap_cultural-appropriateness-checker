@@ -1,837 +1,859 @@
 id,version,text,gt_risk,pred_risk,gt_topic,pred_topic,gt_intent,pred_intent,json_ok,status,raw
-1,A,"""Coolest Monkey in the Jungle"" — hoodie slogan modeled by a Black child",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+1,A,"""Coolest Monkey in the Jungle"" — hoodie slogan modeled by a Black child",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The phrase is considered racist and insensitive, using a racial slur in a context that trivializes it."""
-2,A,"Ad shows Kendall Jenner leaving a photoshoot to join a protest and hand a police officer a Pepsi, defusing tension",Taboo,PARSE_FAIL,History/Politics,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase is considered racist and insensitive, using a racial slur in a context that trivializes it.""}"
+2,A,"Ad shows Kendall Jenner leaving a photoshoot to join a protest and hand a police officer a Pepsi, defusing tension",Taboo,Taboo,History/Politics,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Politics"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad uses Kendall Jenner's image to associate Pepsi with social justice and peaceful protest, potentially co-opting feminist and anti-racist movements for commercial gain."""
-3,A,Black balaclava jumper with a cutout red-lipped mouth around the face opening,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad uses Kendall Jenner's image to associate Pepsi with social justice and peaceful protest, potentially co-opting feminist and anti-racist movements for commercial gain.""}"
+3,A,Black balaclava jumper with a cutout red-lipped mouth around the face opening,Taboo,Taboo,Race/Ethnicity,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of a balaclava with a cutout red-lipped mouth may be perceived as provocative or off-putting, particularly in Italy and globally."""
-4,A,"""DG Loves China"" video shows an Asian model struggling to eat pizza and spaghetti with chopsticks",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of a balaclava with a cutout red-lipped mouth may be perceived as provocative or off-putting, particularly in Italy and globally.""}"
+4,A,"""DG Loves China"" video shows an Asian model struggling to eat pizza and spaghetti with chopsticks",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The video is likely intended to be humorous, but may be perceived as culturally insensitive or mocking Asian eating habits."""
-5,A,"Foundation shade ad appears to show a white model’s hand painted/photoshopped black, palm left white",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The video is likely intended to be humorous, but may be perceived as culturally insensitive or mocking Asian eating habits.""}"
+5,A,"Foundation shade ad appears to show a white model’s hand painted/photoshopped black, palm left white",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad objectifies and stereotypes a black person by depicting them as a 'hand' with a white hand, perpetuating racist tropes."""
-6,A,Ice cream cartons and store branded with the name and image of Adolf Hitler,Taboo,PARSE_FAIL,History/Politics,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad objectifies and stereotypes a black person by depicting them as a 'hand' with a white hand, perpetuating racist tropes.""}"
+6,A,Ice cream cartons and store branded with the name and image of Adolf Hitler,Taboo,Taboo,History/Politics,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using Hitler's image on ice cream cartons is highly offensive and insensitive, targeting Indian consumers"""
-7,A,"Campaign image shows an Asian male model making a hand gesture near his eyes read as mimicking ""slanted eyes""",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unclear,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Hitler's image on ice cream cartons is highly offensive and insensitive, targeting Indian consumers"" }"
+7,A,"Campaign image shows an Asian male model making a hand gesture near his eyes read as mimicking ""slanted eyes""",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unclear,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""The image may be perceived as stereotyping or mocking Asian features, potentially causing offense."""
+  ""reason"": ""The image may be perceived as stereotyping or mocking Asian features, potentially causing offense.""}"
 8,A,"""Twelve Years of Slave"" workout challenge — ""slavery was hard, and so is this""",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
   ""reason"": ""Using the word 'slave' in a workout challenge may be perceived as insensitive or exploitative, referencing historical slavery""
 }"
-10,A,"""Pepsi Brings You Back to Life"" mistranslated as ""Pepsi Brings Your Ancestors Back from the Grave""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+10,A,"""Pepsi Brings You Back to Life"" mistranslated as ""Pepsi Brings Your Ancestors Back from the Grave""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""The mistranslation of 'back to life' as 'bring your ancestors back from the grave' could be perceived as insensitive and disrespectful in Chinese culture."""
-11,A,"""Fly in Leather"" translated to Spanish as ""Vuela en Cuero"" — understood as ""Fly Naked""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The mistranslation of 'back to life' as 'bring your ancestors back from the grave' could be perceived as insensitive and disrespectful in Chinese culture.""}"
+11,A,"""Fly in Leather"" translated to Spanish as ""Vuela en Cuero"" — understood as ""Fly Naked""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""The translation of 'Fly in Leather' to Spanish results in a phrase that is likely to be misinterpreted as 'Fly Naked', potentially causing offense or misunderstanding."""
-12,A,"Model name ""Pinto"" is Brazilian Portuguese slang for small male genitals",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The translation of 'Fly in Leather' to Spanish results in a phrase that is likely to be misinterpreted as 'Fly Naked', potentially causing offense or misunderstanding.""}"
+12,A,"Model name ""Pinto"" is Brazilian Portuguese slang for small male genitals",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of the model's name 'Pinto' as a euphemism for small male genitals is likely intentional and culturally specific to Brazil."""
-13,A,"Early Chinese brand transliteration ""Bensi"" sounds like ""rush to die""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of the model's name 'Pinto' as a euphemism for small male genitals is likely intentional and culturally specific to Brazil.""}"
+13,A,"Early Chinese brand transliteration ""Bensi"" sounds like ""rush to die""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'Bensi' as a brand name could be perceived as insensitive or mocking the Chinese concept of 'ben shi', which means 'to die'."""
-14,A,"""Mist Stick"" curling iron — ""mist"" is German slang for manure",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'Bensi' as a brand name could be perceived as insensitive or mocking the Chinese concept of 'ben shi', which means 'to die'.""}"
+14,A,"""Mist Stick"" curling iron — ""mist"" is German slang for manure",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'mist' as a slang term for manure may be perceived as off-color or insensitive in some contexts, particularly in Germany."""
-15,A,"""Schweppes Tonic Water"" mistranslated as ""Schweppes Toilet Water""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'mist' as a slang term for manure may be perceived as off-color or insensitive in some contexts, particularly in Germany.""}"
+15,A,"""Schweppes Tonic Water"" mistranslated as ""Schweppes Toilet Water""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The mistranslation of 'Tonic Water' to 'Toilet Water' is a clear example of cultural insensitivity and could be perceived as offensive in Italy."""
-16,A,"Desk product named ""FARTFULL""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The mistranslation of 'Tonic Water' to 'Toilet Water' is a clear example of cultural insensitivity and could be perceived as offensive in Italy.""}"
+16,A,"Desk product named ""FARTFULL""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The name 'FARTFULL' is a playful, yet potentially off-putting reference to flatulence, likely intended to be humorous or attention-grabbing."""
-17,A,Promoted bacon-flavored Pringles multipack during Ramadan,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The name 'FARTFULL' is a playful, yet potentially off-putting reference to flatulence, likely intended to be humorous or attention-grabbing.""}"
+17,A,Promoted bacon-flavored Pringles multipack during Ramadan,Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Promoting a non-halal food product during a holy month may be perceived as insensitive or disrespectful to Muslim consumers in the UK."""
-18,A,Ad featured a model in blackface-style makeup,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Promoting a non-halal food product during a holy month may be perceived as insensitive or disrespectful to Muslim consumers in the UK.""}"
+18,A,Ad featured a model in blackface-style makeup,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad's use of blackface-style makeup is highly offensive and culturally insensitive, targeting the Malaysian audience."""
-19,A,Promotional clip shows a Muslim character breaking her Ramadan fast by drinking alcohol,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad's use of blackface-style makeup is highly offensive and culturally insensitive, targeting the Malaysian audience.""}"
+19,A,Promotional clip shows a Muslim character breaking her Ramadan fast by drinking alcohol,Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The promotional clip is likely to be seen as insensitive and disrespectful to Muslims, who observe fasting during Ramadan."""
-20,A,"""Be a good egg. Treat your daughter for doing the washing up."" (Easter promotion)",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The promotional clip is likely to be seen as insensitive and disrespectful to Muslims, who observe fasting during Ramadan.""}"
+20,A,"""Be a good egg. Treat your daughter for doing the washing up."" (Easter promotion)",Taboo,Taboo,Gender,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Relationships"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The phrase 'good egg' is a colloquialism that can be perceived as sexist, implying the daughter's task is demeaning or less valuable than her father's."""
-22,A,Holiday ad shows a husband gifting his wife a Peloton bike; she records a year of anxious workout vlogs for him,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'good egg' is a colloquialism that can be perceived as sexist, implying the daughter's task is demeaning or less valuable than her father's.""}"
+22,A,Holiday ad shows a husband gifting his wife a Peloton bike; she records a year of anxious workout vlogs for him,Taboo,Taboo,Gender,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Relationships"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad's portrayal of a husband gifting his wife a Peloton bike and her subsequent anxious workout vlogs may be perceived as objectifying or controlling, raising concerns about gender dynamics in relationships."""
-23,A,"Ad built around an exaggerated close-up kiss between a model and an ""average"" man, framed as ""beauty meets brains""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad's portrayal of a husband gifting his wife a Peloton bike and her subsequent anxious workout vlogs may be perceived as objectifying or controlling, raising concerns about gender dynamics in relationships.""}"
+23,A,"Ad built around an exaggerated close-up kiss between a model and an ""average"" man, framed as ""beauty meets brains""",Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad objectifies women and reinforces traditional gender stereotypes by framing a close-up kiss between a model and an average man as 'beauty meets brains'"""
-24,A,"Spring 2017 campaign images criticized by French ad watchdog as depicting ""sexual submission""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad objectifies women and reinforces traditional gender stereotypes by framing a close-up kiss between a model and an average man as 'beauty meets brains'"" }"
+24,A,"Spring 2017 campaign images criticized by French ad watchdog as depicting ""sexual submission""",Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The campaign's imagery was deemed insensitive and objectifying, targeting the French audience's values on gender equality."""
-25,A,Brand partnership post featuring a transgender influencer as part of a can promotion,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign's imagery was deemed insensitive and objectifying, targeting the French audience's values on gender equality.""}"
+25,A,Brand partnership post featuring a transgender influencer as part of a can promotion,Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Partnership with a transgender influencer may be perceived as insensitive or appropriative by some, but is intended to promote inclusivity and diversity."""
-26,A,"Influencer video for pore-strip product tied to Mental Health Awareness Month, joking tone paired with anxiety messaging",Taboo,PARSE_FAIL,None,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Partnership with a transgender influencer may be perceived as insensitive or appropriative by some, but is intended to promote inclusivity and diversity.""}"
+26,A,"Influencer video for pore-strip product tied to Mental Health Awareness Month, joking tone paired with anxiety messaging",Taboo,Taboo,None,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Mental Health Awareness Month"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Ties a sensitive topic like mental health to a product typically associated with beauty, potentially triggering or stigmatizing users"""
-27,A,"""Crush"" ad shows a hydraulic press flattening musical instruments, books, and art supplies down into an iPad Pro",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Ties a sensitive topic like mental health to a product typically associated with beauty, potentially triggering or stigmatizing users"" }"
+27,A,"""Crush"" ad shows a hydraulic press flattening musical instruments, books, and art supplies down into an iPad Pro",Taboo,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Uses 'crush' to describe flattening items, potentially referencing a sexual act, implying a provocative or humorous tone."""
-28,A,Ad uses Thailand purely as an exotic backdrop for a Western business storyline,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Uses 'crush' to describe flattening items, potentially referencing a sexual act, implying a provocative or humorous tone.""}"
+28,A,Ad uses Thailand purely as an exotic backdrop for a Western business storyline,Taboo,Taboo,Race/Ethnicity,INVALID,Unintentional,Unintentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Culture/Representation"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""Using Thailand solely as a setting without acknowledging or respecting local culture can be perceived as exoticization and cultural appropriation."""
-29,A,Clothing/underwear line printed with the image of the Hindu deity Ganesha,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Thailand solely as a setting without acknowledging or respecting local culture can be perceived as exoticization and cultural appropriation.""}"
+29,A,Clothing/underwear line printed with the image of the Hindu deity Ganesha,Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using a religious icon in marketing may be perceived as insensitive or appropriative by some, especially in the US market."""
-31,A,Handbag design included a repeating pattern of small swastika-like shapes,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using a religious icon in marketing may be perceived as insensitive or appropriative by some, especially in the US market.""}"
+31,A,Handbag design included a repeating pattern of small swastika-like shapes,Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of a swastika-like shape in a handbag design is likely intended to be provocative and insensitive, referencing the Nazi regime's symbol"""
-32,A,"Abstract, car-free rebrand video and slogan launched on X/Instagram announcing a new brand direction",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of a swastika-like shape in a handbag design is likely intended to be provocative and insensitive, referencing the Nazi regime's symbol"" }"
+32,A,"Abstract, car-free rebrand video and slogan launched on X/Instagram announcing a new brand direction",Taboo,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'car-free' as an adjective to describe the rebrand is a clever play on words, implying freedom from cars, which aligns with the brand's new direction."""
+  ""reason"": ""The use of 'car-free' as an adjective to describe the rebrand is a clever play on words, implying freedom from cars, which aligns with the brand's new direction.""}"
 33,A,احتفالية عساف بشهر الخير 🤍🌙 كولكشن بخور 🪵✨ أجمل عطرين بخورية وتوزيعات لأحبابك 🎁!! #عساف #رمضان,Normal,Taboo,None,Religion,Intentional,Unintentional,True,ok,"{""risk"": ""Taboo"", ""topic"": ""Religion"", ""intent"": ""Unintentional"", ""reason"": ""The use of the word 'عساف' (a term associated with a specific religious group) in a celebratory context may be perceived as insensitive or appropriative, especially during Ramadan.""}"
 34,A,تطبيق مصحف المدينة فرصتك الذهبية لتكون صديقًا للقرآن! 🌙✨ وضع ليلي مريح للعين لقراءة القرآن ليلاً بدون إجهاد,Normal,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{""risk"": ""Taboo"", ""topic"": ""Language/Wordplay"", ""intent"": ""Intentional"", ""reason"": ""Using a playful, starry night theme to make the Quran more appealing and accessible in Saudi Arabia.""}"
-36,A,Celebrate Diwali in style with Nykaa's Diwali Dhamaka Sale! ✨ Enjoy up to 50% OFF on all your favourite products! Shop Now.,Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+36,A,Celebrate Diwali in style with Nykaa's Diwali Dhamaka Sale! ✨ Enjoy up to 50% OFF on all your favourite products! Shop Now.,Normal,Taboo,None,Religion,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'Dhamaka' and 'Diwali' in a sale context may be seen as insensitive or appropriative of Hindu cultural practices, but is likely intended to appeal to Indian consumers."""
-37,A,"This Diwali, let your dreams shine brighter than ever. Hrithik Roshan wishes you a joyous and prosperous Diwali, from his heart and all of us at EVOQ. #evoq #evoqrealtech #houseofevoq #hrithikroshan",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Dhamaka' and 'Diwali' in a sale context may be seen as insensitive or appropriative of Hindu cultural practices, but is likely intended to appeal to Indian consumers.""}"
+37,A,"This Diwali, let your dreams shine brighter than ever. Hrithik Roshan wishes you a joyous and prosperous Diwali, from his heart and all of us at EVOQ. #evoq #evoqrealtech #houseofevoq #hrithikroshan",Normal,Normal,None,Religion,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The post is a festive greeting from Hrithik Roshan, wishing Indians a joyous Diwali, with a branded hashtag and company name."""
-38,A,"✨ Wishing you all a bright and joyous Diwali! ✨ May your homes be filled with light, your hearts with happiness, and your lives with endless prosperity. 🥫💫 Let's celebrate the triumph of light over darkness and spread positivity all around! 🌟 #Raymond #RaymondLifestyle #HappyDiwali",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The post is a festive greeting from Hrithik Roshan, wishing Indians a joyous Diwali, with a branded hashtag and company name."" }"
+38,A,"✨ Wishing you all a bright and joyous Diwali! ✨ May your homes be filled with light, your hearts with happiness, and your lives with endless prosperity. 🥫💫 Let's celebrate the triumph of light over darkness and spread positivity all around! 🌟 #Raymond #RaymondLifestyle #HappyDiwali",Normal,Normal,None,Religion,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The marketing copy is a festive greeting with intentional positive intent, celebrating Diwali and promoting the brand's lifestyle, suitable for Indian culture."""
-39,A,"जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ।✨🪔 आपको एवं आपके परिवार को दीपावली की हार्दिक शुभकामनाएं।🎆💥 #diwali #dipawali",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The marketing copy is a festive greeting with intentional positive intent, celebrating Diwali and promoting the brand's lifestyle, suitable for Indian culture.""}"
+39,A,"जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ।✨🪔 आपको एवं आपके परिवार को दीपावली की हार्दिक शुभकामनाएं।🎆💥 #diwali #dipawali",Normal,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ' as a pun on the phrase 'jasbati ki kachchi mitti mein, boe baje jameen ka' (meaning 'plant seeds in raw earth') and incorporating Diwali wishes is intentional and culturally relevant."""
-41,A,Get the gear that goes hard on and off the field.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ' as a pun on the phrase 'jasbati ki kachchi mitti mein, boe baje jameen ka' (meaning 'plant seeds in raw earth') and incorporating Diwali wishes is intentional and culturally relevant."" }"
+41,A,Get the gear that goes hard on and off the field.,Expected,Taboo,None,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The phrase 'goes hard' is a colloquialism with sexual connotations, suggesting explicit content"""
-42,A,Ball’s in your court. Get the gear that never misses.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'goes hard' is a colloquialism with sexual connotations, suggesting explicit content"" }"
+42,A,Ball’s in your court. Get the gear that never misses.,Expected,Taboo,None,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The phrase 'ball's in your court' is a common idiom, but its use here may be seen as objectifying women and implying they are responsible for men's actions."""
+  ""reason"": ""The phrase 'ball's in your court' is a common idiom, but its use here may be seen as objectifying women and implying they are responsible for men's actions.""}"
 43,A,"اشرب كوكاكولا، امسح، حط الكود، وفالك الفوز! 🥤 (Drink Coca-Cola, scan, enter the code, and win!) — FIFA World Cup promo",Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{""risk"": ""Taboo"", ""topic"": ""Language/Wordplay"", ""intent"": ""Intentional"", ""reason"": ""Uses colloquial Arabic phrase to create a sense of excitement and inclusivity, potentially appealing to the target audience.""}"
-44,A,Make your meal more delicious. WANTA FANTA?,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+44,A,Make your meal more delicious. WANTA FANTA?,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'WANTA' instead of 'want to' is a playful, informal alternative that may be seen as provocative or attention-grabbing in the UK market."""
-45,A,Get your hands on this great deal. It's as simple as McDonald's.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'WANTA' instead of 'want to' is a playful, informal alternative that may be seen as provocative or attention-grabbing in the UK market.""}"
+45,A,Get your hands on this great deal. It's as simple as McDonald's.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'as simple as' to compare something to a well-known brand like McDonald's is a common marketing tactic, implying ease of use."""
-46,A,"From crisp lemon-lime to fruity Pineapple and Watermelon, discover Absolut Vodka mixed with Sprite flavours.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The marketing copy is neutral and informative about a product variation, without any sensitive or controversial topics"""
-47,A,Gönn deinem Style mit legendären adidas Pieces ein Upgrade.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'Gönn' instead of 'gehen' (to go) is a colloquialism typical of German culture, suggesting an attempt to appeal to local tastes."""
-48,A,"In the city that never stops, take a moment from the hustle. For 21+.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The phrase 'the city that never stops' is a common idiom, but using it in an ad targeting Mexico/US Hispanic audience may be perceived as culturally insensitive or appropriative."""
-49,A,Turn any hangout into the ultimate vibe 🌊☀️🍊 Try Corona Sunbrew. For 21+.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'vibe' and emojis in a beer advertisement may be perceived as trying to create a youthful, carefree image that appeals to the target audience."""
-50,A,日本発、世界T。この一枚にユニクロのテクノロジーをつめこんで。着心地も、使い心地も、サイコーの気持ちよさを、あなたに。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The use of '日本発' (Japan Rise) and '世界T' (Global T) may be perceived as insensitive or appropriative, but the context suggests a deliberate play on words to convey a positive message."""
-51,A,"Shop our selection of home products, décor, and more at Amazon!",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'as simple as' to compare something to a well-known brand like McDonald's is a common marketing tactic, implying ease of use.""}"
+46,A,"From crisp lemon-lime to fruity Pineapple and Watermelon, discover Absolut Vodka mixed with Sprite flavours.",Expected,Normal,None,None,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The marketing copy is neutral and promotional, with no sensitive or controversial content, making it suitable for a broad audience in India."""
-52,A,Las mejores ofertas del día. Explora nuestras selecciones ahora. Obtén más sorpresas.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The marketing copy is neutral and informative about a product variation, without any sensitive or controversial topics"" }"
+47,A,Gönn deinem Style mit legendären adidas Pieces ein Upgrade.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'Las mejores' (the best) is a common idiomatic expression in Spanish, but its literal translation could be seen as insensitive or dismissive."""
-53,A,Ad for Fem Creme Bleach set during Karwa Chauth shows two women celebrating the festival together and applying bleach on each other,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": ""The ad may be perceived as objectifying or stereotyping women, particularly in a context where Karwa Chauth is a celebration of female bonding and friendship."""
-54,A,"Diwali festive collection campaign named ""Jashn-e-Riwaaz"" (using an Urdu phrase)",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Gönn' instead of 'gehen' (to go) is a colloquialism typical of German culture, suggesting an attempt to appeal to local tastes.""}"
+48,A,"In the city that never stops, take a moment from the hustle. For 21+.",Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using a non-English phrase may be perceived as exclusionary or alienating to some viewers, but the intent is likely cultural sensitivity and celebration of Indian heritage."""
-55,A,Ad for an atta/bread-maker appliance suggests buying the device instead of asking house-help to knead dough,Taboo,PARSE_FAIL,None,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'the city that never stops' is a common idiom, but using it in an ad targeting Mexico/US Hispanic audience may be perceived as culturally insensitive or appropriative.""}"
+49,A,Turn any hangout into the ultimate vibe 🌊☀️🍊 Try Corona Sunbrew. For 21+.,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The use of 'vibe' and emojis in a beer advertisement may be perceived as trying to create a youthful, carefree image that appeals to the target audience.""}"
+50,A,日本発、世界T。この一枚にユニクロのテクノロジーをつめこんで。着心地も、使い心地も、サイコーの気持ちよさを、あなたに。,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The use of '日本発' (Japan Rise) and '世界T' (Global T) may be perceived as insensitive or appropriative, but the context suggests a deliberate play on words to convey a positive message."" }"
+51,A,"Shop our selection of home products, décor, and more at Amazon!",Expected,Normal,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The marketing copy is neutral and promotional, with no sensitive or controversial content, making it suitable for a broad audience in India.""}"
+52,A,Las mejores ofertas del día. Explora nuestras selecciones ahora. Obtén más sorpresas.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The use of 'Las mejores' (the best) is a common idiomatic expression in Spanish, but its literal translation could be seen as insensitive or dismissive.""}"
+53,A,Ad for Fem Creme Bleach set during Karwa Chauth shows two women celebrating the festival together and applying bleach on each other,Taboo,Taboo,Religion,Gender,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The ad may be perceived as objectifying or stereotyping women, particularly in a context where Karwa Chauth is a celebration of female bonding and friendship.""}"
+54,A,"Diwali festive collection campaign named ""Jashn-e-Riwaaz"" (using an Urdu phrase)",Taboo,Taboo,Religion,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""Using a non-English phrase may be perceived as exclusionary or alienating to some viewers, but the intent is likely cultural sensitivity and celebration of Indian heritage.""}"
+55,A,Ad for an atta/bread-maker appliance suggests buying the device instead of asking house-help to knead dough,Taboo,Taboo,None,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad is insensitive towards traditional Indian household help, implying that buying a machine is more acceptable than hiring someone to knead dough."""
-56,A,"""The Future Isn’t Waiting"" film shows mixed-race and other Japanese schoolgirls facing discrimination, overcoming it through sport",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad is insensitive towards traditional Indian household help, implying that buying a machine is more acceptable than hiring someone to knead dough.""}"
+56,A,"""The Future Isn’t Waiting"" film shows mixed-race and other Japanese schoolgirls facing discrimination, overcoming it through sport",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The film tackles sensitive issues of racism and discrimination faced by mixed-race Japanese schoolgirls, sparking conversation and awareness."""
-57,A,"Animated ad depicting tennis star Naomi Osaka with pale skin, brown hair, and Caucasian features",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The film tackles sensitive issues of racism and discrimination faced by mixed-race Japanese schoolgirls, sparking conversation and awareness.""}"
+57,A,"Animated ad depicting tennis star Naomi Osaka with pale skin, brown hair, and Caucasian features",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of a Caucasian model to depict a Japanese tennis star may be perceived as culturally insensitive and perpetuate stereotypes."""
-58,A,Valentine's Day department-store campaign carried messaging widely read as anti-women,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of a Caucasian model to depict a Japanese tennis star may be perceived as culturally insensitive and perpetuate stereotypes.""}"
+58,A,Valentine's Day department-store campaign carried messaging widely read as anti-women,Taboo,Taboo,Gender,Gender,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""Campaign's message was misinterpreted by some, leading to accusations of sexism and misogyny in Japan"""
-59,A,TV commercial used exaggerated Western features (e.g. large prosthetic nose) to represent foreign passengers,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Campaign's message was misinterpreted by some, leading to accusations of sexism and misogyny in Japan"" }"
+59,A,TV commercial used exaggerated Western features (e.g. large prosthetic nose) to represent foreign passengers,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using exaggerated Western features to represent foreign passengers in a TV commercial targeting Japan is culturally insensitive and perpetuates stereotypes."""
-60,A,"Campaign used illustrated caricatures of women who drink the tea, e.g. ""The Conceited Girl Who Thinks She’s a Model""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using exaggerated Western features to represent foreign passengers in a TV commercial targeting Japan is culturally insensitive and perpetuates stereotypes.""}"
+60,A,"Campaign used illustrated caricatures of women who drink the tea, e.g. ""The Conceited Girl Who Thinks She’s a Model""",Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Illustrated caricatures of women drinking tea are stereotypical and objectifying, perpetuating negative gender attitudes in Japan."""
-61,A,Ad shows an Asian woman appearing aroused after opening a bag of dirty laundry worn by Caucasian men,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Illustrated caricatures of women drinking tea are stereotypical and objectifying, perpetuating negative gender attitudes in Japan.""}"
+61,A,Ad shows an Asian woman appearing aroused after opening a bag of dirty laundry worn by Caucasian men,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad is highly offensive and discriminatory, using racial stereotypes to elicit a reaction"""
-62,A,"""It’s memorial day for Kristallnacht! Treat yourself with more tender cheese on your crispy chicken. Now at KFCheese!""",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad is highly offensive and discriminatory, using racial stereotypes to elicit a reaction"" }"
+62,A,"""It’s memorial day for Kristallnacht! Treat yourself with more tender cheese on your crispy chicken. Now at KFCheese!""",Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of Kristallnacht, a reference to the 1938 Nazi pogrom against Jews in Germany, is likely intentional and insensitive, given its historical significance."""
-63,A,"Issue used the cover line ""Black is Back"" atop a feature of models of color, alongside a captioning mistake",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of Kristallnacht, a reference to the 1938 Nazi pogrom against Jews in Germany, is likely intentional and insensitive, given its historical significance.""}"
+63,A,"Issue used the cover line ""Black is Back"" atop a feature of models of color, alongside a captioning mistake",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'Black is Back' as a cover line with a feature of models of color alongside a captioning mistake could be perceived as insensitive or appropriative in Germany, where racism and cultural insensitivity are significant concerns."""
-64,A,New tail-fin design program included patterns that in some markets resembled Arabic script,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'Black is Back' as a cover line with a feature of models of color alongside a captioning mistake could be perceived as insensitive or appropriative in Germany, where racism and cultural insensitivity are significant concerns.""}"
+64,A,New tail-fin design program included patterns that in some markets resembled Arabic script,Taboo,Taboo,Religion,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""Using Arabic script without permission or understanding its cultural significance could be perceived as insensitive or culturally inappropriate in Saudi Arabia."""
-65,A,"Bathroom tile pattern was perceived by shoppers to resemble the Arabic script for ""Allah""",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Arabic script without permission or understanding its cultural significance could be perceived as insensitive or culturally inappropriate in Saudi Arabia.""}"
+65,A,"Bathroom tile pattern was perceived by shoppers to resemble the Arabic script for ""Allah""",Taboo,Taboo,Religion,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": ""Using a bathroom tile pattern resembling the Arabic script for 'Allah' may be perceived as insensitive or culturally inappropriate in Saudi Arabia."""
-66,A,"""Invisible for Black & White"" deodorant ad shows a woman in a white robe captioned ""white is purity""",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using a bathroom tile pattern resembling the Arabic script for 'Allah' may be perceived as insensitive or culturally inappropriate in Saudi Arabia.""}"
+66,A,"""Invisible for Black & White"" deodorant ad shows a woman in a white robe captioned ""white is purity""",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad uses racial undertones and potentially offensive language, targeting a specific ethnic group in a culturally sensitive context."""
-67,A,Oaxaca Slip-On sneaker design drew directly on traditional Indigenous Mexican huarache craftsmanship from Yalálag,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad uses racial undertones and potentially offensive language, targeting a specific ethnic group in a culturally sensitive context.""}"
+67,A,Oaxaca Slip-On sneaker design drew directly on traditional Indigenous Mexican huarache craftsmanship from Yalálag,Taboo,Expected,Race/Ethnicity,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'Indigenous' and 'traditional' to describe the sneaker design may be seen as culturally sensitive, but also potentially appropriative or exploitative if not executed thoughtfully."""
-68,A,"""Buffet. It’s easy to be a man. Tecate Beer, for you."" — billboard shows three slim, light-skinned women at a bar",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Indigenous' and 'traditional' to describe the sneaker design may be seen as culturally sensitive, but also potentially appropriative or exploitative if not executed thoughtfully.""}"
+68,A,"""Buffet. It’s easy to be a man. Tecate Beer, for you."" — billboard shows three slim, light-skinned women at a bar",Taboo,Taboo,Gender,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Equality"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad challenges traditional gender roles by featuring three women in a masculine-dominated setting, implying that Tecate Beer is accessible to all."""
-69,A,"#OrgullosamenteIndio (""Proudly Indian"") campaign had people wear t-shirts printed with a racial slur, one word crossed out",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad challenges traditional gender roles by featuring three women in a masculine-dominated setting, implying that Tecate Beer is accessible to all.""}"
+69,A,"#OrgullosamenteIndio (""Proudly Indian"") campaign had people wear t-shirts printed with a racial slur, one word crossed out",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The campaign's use of a racial slur despite crossing it out may be seen as insensitive or even provocative, targeting the Mexican culture."""
-70,A,"Campaign image shows an Asian model pulling the corner of her eye to promote a makeup collection, alongside another image with dark-toned ""spooky"" eyelid styling in traditional Chinese dress",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign's use of a racial slur despite crossing it out may be seen as insensitive or even provocative, targeting the Mexican culture.""}"
+70,A,"Campaign image shows an Asian model pulling the corner of her eye to promote a makeup collection, alongside another image with dark-toned ""spooky"" eyelid styling in traditional Chinese dress",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The campaign uses a cultural stereotype by featuring an Asian model with dark-toned eyelid styling in traditional Chinese dress, potentially offending some viewers."""
-71,A,"Ad campaign features a female model styled with very thin, slanted eyes",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign uses a cultural stereotype by featuring an Asian model with dark-toned eyelid styling in traditional Chinese dress, potentially offending some viewers.""}"
+71,A,"Ad campaign features a female model styled with very thin, slanted eyes",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The ad campaign's use of a model with very thin, slanted eyes may be perceived as culturally insensitive or stereotypical in China."""
-72,A,"Ad shows a woman being followed at night; she uses a PurCotton makeup remover to reveal her ""true"" older, darker-skinned appearance, and the pursuer recoils in disgust",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad campaign's use of a model with very thin, slanted eyes may be perceived as culturally insensitive or stereotypical in China.""}"
+72,A,"Ad shows a woman being followed at night; she uses a PurCotton makeup remover to reveal her ""true"" older, darker-skinned appearance, and the pursuer recoils in disgust",Taboo,Taboo,Gender,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": The ad objectifies a woman based on her skin color, perpetuating racist stereotypes and potentially causing offense in the Chinese market."""
-73,A,"Lunar New Year capsule collection used rabbit-felt products and was shot with live bunnies (and, the following year, live tigers for the Year of the Tiger)",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad objectifies a woman based on her darker skin tone, perpetuating racist stereotypes and potentially causing offense in China.""}"
+73,A,"Lunar New Year capsule collection used rabbit-felt products and was shot with live bunnies (and, the following year, live tigers for the Year of the Tiger)",Taboo,Taboo,None,Religion,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using live animals in a marketing campaign may be seen as insensitive or exploitative, especially during a cultural holiday like Lunar New Year."""
-74,A,【無印良品のTシャツ】心地よさも、手ごろさも。着心地が良く手に取りやすい、夏の定番 Tシャツ。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using live animals in a marketing campaign may be seen as insensitive or exploitative, especially during a cultural holiday like Lunar New Year.""}"
+74,A,【無印良品のTシャツ】心地よさも、手ごろさも。着心地が良く手に取りやすい、夏の定番 Tシャツ。,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of Japanese characters and phrases creates a playful, tongue-in-cheek tone that is typical of Japanese marketing language."""
-75,A,"季節の""いいね""をもっと""良い値""で。「良いね祭」開偨1月30日金【7月13日月まで。",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of Japanese characters and phrases creates a playful, tongue-in-cheek tone that is typical of Japanese marketing language.""}"
+75,A,"季節の""いいね""をもっと""良い値""で。「良いね祭」開偨1月30日金【7月13日月まで。",Expected,Taboo,None,Language/Wordplay,Intentional,Unclear,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unclear"",
-  ""reason"": ""The use of """"いいね"""" (like) with """"良い値"""" (good value) may be considered taboo in Japanese culture, as it implies a transactional relationship."""
-76,A,【紳士 天竹編みクルーネック半袖Ｔシャツ】990円 結局、毎日この1枚。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'いいね' (like) with a seasonal twist and a festival name may be seen as insensitive or culturally inappropriate in Japan.""}"
+76,A,【紳士 天竹編みクルーネック半袖Ｔシャツ】990円 結局、毎日この1枚。,Expected,Taboo,None,Language/Wordplay,Intentional,Unclear,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unclear"",
-  ""reason"": ""The use of '天竹' (heavenly bamboo) and '編みクルーネック' (knitted neck) may be considered unusual or even taboo in Japanese culture, making the intent unclear."""
+  ""reason"": ""The use of '天竹' (heavenly bamboo) and '編みクルーネック' (knitted neck) may be considered unusual or even taboo in Japanese culture, making the intent unclear."" }"
 77,A,Discover top fashion brands from Japan and around the world. Trend shopping starts at Shinsaibashi PARCO.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
   ""reason"": ""The use of 'trend shopping' and 'Shinsaibashi PARCO' creates a playful, attention-grabbing tone""
 }"
-78,A,Jetzt große Produktauswahl entdecken und bequem nach Hause liefern lassen 😍,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+78,A,Jetzt große Produktauswahl entdecken und bequem nach Hause liefern lassen 😍,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using a smiley face and 'bequem' (conveniently) in a product advertisement may be seen as unprofessional or insincere in German marketing."""
-79,A,Noch mehr Auswahl 🤩 Shoppe jetzt im Lidl-Onlineshop und entdecke unsere aktuellen Angebote!,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using a smiley face and 'bequem' (conveniently) in a product advertisement may be seen as unprofessional or insincere in German marketing.""}"
+79,A,Noch mehr Auswahl 🤩 Shoppe jetzt im Lidl-Onlineshop und entdecke unsere aktuellen Angebote!,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'Noch mehr Auswahl' (meaning 'even more choice') is a common German phrase used to emphasize the variety of options available, in this context likely intended to attract customers."""
-80,A,Tolle Styles für jeden Anlass 🧥👖👗👙 Jetzt entdecken im Lidl Onlineshop! 🛒,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Noch mehr Auswahl' (meaning 'even more choice') is a common German phrase used to emphasize the variety of options available, in this context likely intended to attract customers.""}"
+80,A,Tolle Styles für jeden Anlass 🧥👖👗👙 Jetzt entdecken im Lidl Onlineshop! 🛒,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using German slang (e.g. 'Tolle Styles' meaning 'great style') in a marketing context to appeal to the target culture."""
-81,A,Entdecke unsere frischen Obst und Gemüseangebote 🥬✨ in deiner Lidl Filiale 🛒,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using German slang (e.g. 'Tolle Styles' meaning 'great style') in a marketing context to appeal to the target culture."" }"
+81,A,Entdecke unsere frischen Obst und Gemüseangebote 🥬✨ in deiner Lidl Filiale 🛒,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'frischen' (fresh) and '✨' (sparkles) is a playful way to describe fresh produce, typical of German marketing language."""
-82,A,"Trust isn't built overnight. It's earned through continuous improvement, dedication, and quality standards.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'frischen' (fresh) and '✨' (sparkles) is a playful way to describe fresh produce, typical of German marketing language.""}"
+82,A,"Trust isn't built overnight. It's earned through continuous improvement, dedication, and quality standards.",Expected,Normal,None,None,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The message is clear and respectful, avoiding sensitive topics like religion or politics in a culturally specific context."""
-83,A,"دجاج اليوم طازج، مغذي، صحي (Today’s chicken: fresh, nutritious, healthy)",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The message is clear and respectful, avoiding sensitive topics like religion or politics in a culturally specific context.""}"
+83,A,"دجاج اليوم طازج، مغذي، صحي (Today’s chicken: fresh, nutritious, healthy)",Expected,Taboo,None,Language/Wordplay,Intentional,Unclear,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unclear"",
-  ""reason"": ""Using Arabic words to describe chicken may be seen as culturally insensitive or taboo in Saudi Arabia."""
-84,A,ALYOUM: Fresh & Nutritious,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Arabic words to describe chicken may be seen as culturally insensitive or taboo in Saudi Arabia."" }"
+84,A,ALYOUM: Fresh & Nutritious,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'ALYOUM' instead of 'you' in Arabic may be seen as a colloquial or informal term, potentially offending some Saudis."""
-85,A,First time ordering? Enjoy a year of free delivery + SR 150 in vouchers. Download now!,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'ALYOUM' instead of 'you' in Arabic may be seen as a colloquial or informal term, potentially offending some Saudis.""}"
+85,A,First time ordering? Enjoy a year of free delivery + SR 150 in vouchers. Download now!,Expected,Taboo,None,Religion,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'SR' for Saudi Riyals may be seen as insensitive or dismissive of Islamic currency, potentially offending local customers."""
-86,A,"Cuando tienes un antojo, lo ves en todas partes. ¡Deja de imaginar y comienza a disfrutar de tu Bran Frut!",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'SR' for Saudi Riyals may be seen as insensitive or dismissive of Islamic currency, potentially offending local customers.""}"
+86,A,"Cuando tienes un antojo, lo ves en todas partes. ¡Deja de imaginar y comienza a disfrutar de tu Bran Frut!",Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'antojo' and 'Bran Frut' may be seen as culturally insensitive or appropriative, but the brand is likely using it to create a playful and catchy slogan."""
-87,A,"El toque oriental le va bien a todas tus comidas, ¿ya probaste Panko Bimbo?",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'antojo' and 'Bran Frut' may be seen as culturally insensitive or appropriative, but the brand is likely using it to create a playful and catchy slogan.""}"
+87,A,"El toque oriental le va bien a todas tus comidas, ¿ya probaste Panko Bimbo?",Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""Using 'oriental' to describe a food product is likely intended to evoke exoticism, but may be perceived as culturally insensitive or stereotypical in Mexico."""
-88,A,Nunca sale el antojo. Se acaba la hamburguesa y entra el hot dog. Porque los mejores partidos merecen más de una jugada maestra.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'oriental' to describe a food product is likely intended to evoke exoticism, but may be perceived as culturally insensitive or stereotypical in Mexico.""}"
+88,A,Nunca sale el antojo. Se acaba la hamburguesa y entra el hot dog. Porque los mejores partidos merecen más de una jugada maestra.,Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The phrase 'Nunca sale el antojo' is a play on words, referencing both the idea that desire never subsides and the fact that hot dogs are often served at baseball games in Mexico."""
-89,A,"Hay días que piden café grande, paso firme y algo dulce al lado ☕",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'Nunca sale el antojo' is a play on words, referencing both the idea that desire never subsides and the fact that hot dogs are often served at baseball games in Mexico.""}"
+89,A,"Hay días que piden café grande, paso firme y algo dulce al lado ☕",Expected,Taboo,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": ""The use of 'días que piden café grande' is a colloquial expression that may be considered impolite or informal in formal settings, but its intentional use suggests cultural familiarity and playfulness."""
-1,B,"""Coolest Monkey in the Jungle"" — hoodie slogan modeled by a Black child",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'días que piden café grande' is a colloquial expression that may be considered impolite or informal in formal settings, but its intentional use suggests cultural familiarity and playfulness.""}"
+1,B,"""Coolest Monkey in the Jungle"" — hoodie slogan modeled by a Black child",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase is reminiscent of a notorious Pepsi ad from the 90s, which was widely criticized for its racist undertones and has since become a cultural reference point for issues of racial insensitivity."
-2,B,"Ad shows Kendall Jenner leaving a photoshoot to join a protest and hand a police officer a Pepsi, defusing tension",Taboo,PARSE_FAIL,History/Politics,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'coolest monkey' is a racist stereotype, and using it on a hoodie slogan with a Black child model is likely to be perceived as insensitive and culturally tone-deaf."" }"
+2,B,"Ad shows Kendall Jenner leaving a photoshoot to join a protest and hand a police officer a Pepsi, defusing tension",Taboo,Expected,History/Politics,None,Intentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The ad's message is intended to be positive and peaceful, using Kendall Jenner as a symbol of unity and social responsibility."""
-3,B,Black balaclava jumper with a cutout red-lipped mouth around the face opening,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad's message is clearly pro-peace and anti-police brutality, aligning with the brand's stated values and current global social issues""
+}"
+3,B,Black balaclava jumper with a cutout red-lipped mouth around the face opening,Taboo,Taboo,Race/Ethnicity,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Body Image"",
   ""intent"": ""Intentional"",
-  ""reason"": The design's focus on a provocative, seductive image may be perceived as objectifying women and perpetuating unrealistic beauty standards in Italy."""
-4,B,"""DG Loves China"" video shows an Asian model struggling to eat pizza and spaghetti with chopsticks",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The design references a provocative and stereotypical Italian 'tart' or 'seductress', potentially objectifying women and perpetuating negative body image stereotypes."" }"
+4,B,"""DG Loves China"" video shows an Asian model struggling to eat pizza and spaghetti with chopsticks",Taboo,Taboo,Race/Ethnicity,Gender,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": The ad objectifies the Asian model, perpetuating stereotypes about women's inability to perform domestic tasks, and reinforces patriarchal norms."
-5,B,"Foundation shade ad appears to show a white model’s hand painted/photoshopped black, palm left white",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Depiction of a woman struggling with eating traditional Chinese foods reinforces stereotypes about Asian women's culinary abilities and is likely to be perceived as sexist."" }"
+5,B,"Foundation shade ad appears to show a white model’s hand painted/photoshopped black, palm left white",Taboo,Expected,Race/Ethnicity,None,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of Photoshop to create the illusion of a darker skin tone is a common practice in the beauty industry and is not inherently culturally risky in Australia."""
-6,B,Ice cream cartons and store branded with the name and image of Adolf Hitler,Taboo,PARSE_FAIL,History/Politics,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of Photoshop to create a 'hand-painted' effect is a common technique in beauty advertising, and the image does not contain any overtly cultural references that would be considered taboo in Australia."" }"
+6,B,Ice cream cartons and store branded with the name and image of Adolf Hitler,Taboo,Taboo,History/Politics,History/Politics,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""History/Politics"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of Hitler's image on ice cream cartons is highly insensitive and likely to offend Indians, who have a complex history with Nazi Germany."
-7,B,"Campaign image shows an Asian male model making a hand gesture near his eyes read as mimicking ""slanted eyes""",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unclear,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Hitler's image on ice cream cartons is highly insensitive to India's complex history with Nazi Germany and the Holocaust."" }"
+7,B,"Campaign image shows an Asian male model making a hand gesture near his eyes read as mimicking ""slanted eyes""",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unclear,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Unintentional"",
-  ""reason"": The image may be perceived as perpetuating negative stereotypes about Asian people, particularly those with East Asian features."
-8,B,"""Twelve Years of Slave"" workout challenge — ""slavery was hard, and so is this""",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The gesture is a racial stereotype and may be perceived as mocking or mocking the Asian community, which was not intended by the brand."" }"
+8,B,"""Twelve Years of Slave"" workout challenge — ""slavery was hard, and so is this""",Taboo,Normal,Race/Ethnicity,History/Politics,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""History/Politics"",
   ""intent"": ""Intentional"",
-  ""reason"": The reference to slavery in the context of a workout challenge is a deliberate cultural nod to the historical significance of the film, acknowledging its challenging nature
-}"
-10,B,"""Pepsi Brings You Back to Life"" mistranslated as ""Pepsi Brings Your Ancestors Back from the Grave""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The reference to slavery is a clear nod to the film '12 Years a Slave', but may be perceived as insensitive or tone-deaf in the UK context"" }"
+10,B,"""Pepsi Brings You Back to Life"" mistranslated as ""Pepsi Brings Your Ancestors Back from the Grave""",Taboo,Taboo,Language/Wordplay,Religion,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase """" (chū shēng guī) is a common idiom in Chinese that literally means ""to bring ancestors back from the grave,"" which has connotations of ancestor worship and funeral rituals, potentially offending many Chinese people."
-11,B,"""Fly in Leather"" translated to Spanish as ""Vuela en Cuero"" — understood as ""Fly Naked""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Mistranslation of 'back to life' as a common Chinese idiom for returning ancestors to their graves, potentially offending the deceased and their families"" }"
+11,B,"""Fly in Leather"" translated to Spanish as ""Vuela en Cuero"" — understood as ""Fly Naked""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""Vuela en Cuero"" is a common Mexican idiom that literally translates to 'fly in leather', but its idiomatic meaning implies flying naked, which could be misinterpreted by some viewers."""
-12,B,"Model name ""Pinto"" is Brazilian Portuguese slang for small male genitals",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The translation 'Vuela en Cuero' sounds like 'volar desnudo', which means 'fly naked', due to a literal wordplay on 'cuero' meaning both leather and skin."" }"
+12,B,"Model name ""Pinto"" is Brazilian Portuguese slang for small male genitals",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of the term ""pinto"" without context could be misinterpreted and offend Brazilian consumers, who may not be familiar with its slang meaning."
-13,B,"Early Chinese brand transliteration ""Bensi"" sounds like ""rush to die""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'pinto' as a model name could be misinterpreted due to its literal meaning in Brazilian Portuguese"" }"
+13,B,"Early Chinese brand transliteration ""Bensi"" sounds like ""rush to die""",Taboo,Taboo,Language/Wordplay,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of a transliterated word with a potentially negative connotation, referencing the concept of 'hurry to die' in Chinese culture, was likely intended to convey a sense of urgency or importance."""
-14,B,"""Mist Stick"" curling iron — ""mist"" is German slang for manure",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of ""Mist"" as a colloquialism for manure is a well-known German slang term, and the brand's intention to reference this term in their product name is likely intended to be humorous or ironic."""
-15,B,"""Schweppes Tonic Water"" mistranslated as ""Schweppes Toilet Water""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""Toilet Water"" is a direct translation of the Italian word for toilet, implying the product is meant for flushing toilets, which is not the intended use."
-16,B,"Desk product named ""FARTFULL""",Taboo,PARSE_FAIL,Language/Wordplay,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The brand likely chose a playful, humorous name to appeal to English-speaking audiences, avoiding cultural references that might be riskier in other markets."""
-17,B,Promoted bacon-flavored Pringles multipack during Ramadan,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The promotion of a food product is not inherently culturally sensitive, and the timing with Ramadan is likely intended to capitalize on the holiday season."
-18,B,Ad featured a model in blackface-style makeup,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Race/Ethnicity"",
-  ""intent"": ""Intentional"",
-  ""reason"": The ad's use of blackface is a highly sensitive and culturally taboo reference in Malaysia, often associated with racism and oppression."
-19,B,Promotional clip shows a Muslim character breaking her Ramadan fast by drinking alcohol,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Intentional"",
-  ""reason"": The campaign intentionally violates Islamic norms, potentially sparking outrage and backlash among Muslims worldwide."""
-20,B,"""Be a good egg. Treat your daughter for doing the washing up."" (Easter promotion)",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": The phrase ""treat your daughter"" is a common idiomatic expression in the UK, but its literal meaning may be perceived as patronizing or sexist by some, making it a low-risk cultural reference with an intentional tone."
-22,B,Holiday ad shows a husband gifting his wife a Peloton bike; she records a year of anxious workout vlogs for him,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The copy is culturally safe as it's a relatable and common scenario in the US, with no cultural reference or theme that could be misinterpreted."""
-23,B,"Ad built around an exaggerated close-up kiss between a model and an ""average"" man, framed as ""beauty meets brains""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The ad's focus on a romantic, intimate moment between two individuals is typical of Western advertising and aligns with American cultural norms."
-24,B,"Spring 2017 campaign images criticized by French ad watchdog as depicting ""sexual submission""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The image's depiction of a woman in a submissive pose was misinterpreted due to cultural differences in representation and objectification norms."""
-25,B,Brand partnership post featuring a transgender influencer as part of a can promotion,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": The campaign features a transgender influencer, which is a deliberate choice to promote inclusivity and diversity, aligning with current US cultural values."""
-26,B,"Influencer video for pore-strip product tied to Mental Health Awareness Month, joking tone paired with anxiety messaging",Taboo,PARSE_FAIL,None,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": The campaign's use of a joke tone and anxiety messaging in conjunction with Mental Health Awareness Month is intended to normalize conversations around mental health, particularly for women, and reduce stigma."""
-27,B,"""Crush"" ad shows a hydraulic press flattening musical instruments, books, and art supplies down into an iPad Pro",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The campaign's focus on technology and portability is a common global theme, making it culturally safe for a broad audience."""
-28,B,Ad uses Thailand purely as an exotic backdrop for a Western business storyline,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Race/Ethnicity"",
-  ""intent"": ""Unintentional"",
-  ""reason"": Using Thailand solely as an exotic backdrop implies cultural appropriation and disrespect towards Thai culture, without any genuine engagement or understanding."
-29,B,Clothing/underwear line printed with the image of the Hindu deity Ganesha,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The use of a Hindu deity's image in underwear may be perceived as insensitive or appropriative, especially without proper cultural context or understanding."""
-31,B,Handbag design included a repeating pattern of small swastika-like shapes,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""None"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The use of a swastika-like shape is culturally risky in Europe, but the context of a handbag design suggests it was likely an unintentional design choice rather than a deliberate reference to Nazism."
-32,B,"Abstract, car-free rebrand video and slogan launched on X/Instagram announcing a new brand direction",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The campaign's focus on a car-free lifestyle aligns with the UK's and global trend of sustainability, making it an intentional choice with low cultural risk."""
-33,B,احتفالية عساف بشهر الخير 🤍🌙 كولكشن بخور 🪵✨ أجمل عطرين بخورية وتوزيعات لأحبابك 🎁!! #عساف #رمضان,Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of the word 'خور' (khur), which refers to a ritual sacrifice in Islamic tradition, is likely intentional but culturally insensitive and potentially blasphemous in Saudi Arabia during Ramadan."""
-34,B,تطبيق مصحف المدينة فرصتك الذهبية لتكون صديقًا للقرآن! 🌙✨ وضع ليلي مريح للعين لقراءة القرآن ليلاً بدون إجهاد,Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The ad's claim that the Quran reading app is a ""friend"" to Islam and promises a ""golden opportunity"" may be perceived as blasphemous or disrespectful, as it implies a personal relationship with God."
-36,B,Celebrate Diwali in style with Nykaa's Diwali Dhamaka Sale! ✨ Enjoy up to 50% OFF on all your favourite products! Shop Now.,Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The use of the word """" (Dhamaka) in a Diwali context may be perceived as insensitive to Hindu religious traditions, where Dhamaka is a specific ritual and not a festive celebration."""
-37,B,"This Diwali, let your dreams shine brighter than ever. Hrithik Roshan wishes you a joyous and prosperous Diwali, from his heart and all of us at EVOQ. #evoq #evoqrealtech #houseofevoq #hrithikroshan",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Intentional"",
-  ""reason"": The copy engages with Diwali, a significant Hindu festival of lights, but its message and tone may be perceived as overly commercialized or insensitive to the religious significance of the occasion."
-38,B,"✨ Wishing you all a bright and joyous Diwali! ✨ May your homes be filled with light, your hearts with happiness, and your lives with endless prosperity. 🥫💫 Let's celebrate the triumph of light over darkness and spread positivity all around! 🌟 #Raymond #RaymondLifestyle #HappyDiwali",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Religion"",
-  ""intent"": ""Intentional"",
-  ""reason"": The copy engages with Diwali, a significant Hindu festival of lights, and conveys positive messages, but may be perceived as overly commercialized or insensitive to the cultural significance of the occasion."
-39,B,"जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ।✨🪔 आपको एवं आपके परिवार को दीपावली की हार्दिक शुभकामनाएं।🎆💥 #diwali #dipawali",Normal,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का "" uses a colloquialism that is derogatory towards certain communities in India, and the use of """" (a symbol often associated with Hinduism) alongside a flower name may be misinterpreted."""
-41,B,Get the gear that goes hard on and off the field.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The phrase ""goes hard"" is a colloquialism in American English, commonly used to describe something that performs well or is intense.""
+  ""reason"": ""Using 'rush to die' as a translation of 'Bensi' implies a Buddhist concept, which is sensitive in China""
 }"
-42,B,Ball’s in your court. Get the gear that never misses.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+14,B,"""Mist Stick"" curling iron — ""mist"" is German slang for manure",Taboo,Expected,Language/Wordplay,Language/Wordplay,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
-  ""topic"": ""None"",
+  ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The phrase ""Ball's in your court"" is a common idiom in American English, used to convey confidence and determination."""
-43,B,"اشرب كوكاكولا، امسح، حط الكود، وفالك الفوز! 🥤 (Drink Coca-Cola, scan, enter the code, and win!) — FIFA World Cup promo",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'Mist' as a colloquialism for manure is a common German expression, and the brand likely chose it intentionally to add a playful touch"" }"
+15,B,"""Schweppes Tonic Water"" mistranslated as ""Schweppes Toilet Water""",Taboo,Taboo,Language/Wordplay,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of the phrase """" (kod) which is a slang term for 'penis' in some Arabic dialects, may be misinterpreted by the target audience."""
-44,B,Make your meal more delicious. WANTA FANTA?,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Mistranslation of 'Tonic Water' to 'Toilet Water' is a serious cultural faux pas in Italy, implying the product is for personal hygiene rather than a mixer."" }"
+16,B,"Desk product named ""FARTFULL""",Taboo,Expected,Language/Wordplay,None,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of """" (WANTA) is a playful, informal way to ask for something in the UK, and the brand's intention is likely to be humorous and engaging."""
-45,B,Get your hands on this great deal. It's as simple as McDonald's.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The name 'FARTFULL' is a playful, non-offensive pun on the word 'full', suitable for global English-speaking audiences""
+}"
+17,B,Promoted bacon-flavored Pringles multipack during Ramadan,Taboo,Expected,Religion,None,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The reference to McDonald's is a well-known brand in the UK, implying simplicity and ease of use, which is a common marketing theme."""
-46,B,"From crisp lemon-lime to fruity Pineapple and Watermelon, discover Absolut Vodka mixed with Sprite flavours.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Expected"",
-  ""reason"": The marketing copy is culturally neutral and does not engage with any specific cultural or religious theme, making it a safe choice for the UK target audience."""
-47,B,Gönn deinem Style mit legendären adidas Pieces ein Upgrade.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of German (""Gönn"") is a deliberate choice, and the phrase is a common idiomatic expression meaning 'to upgrade' or 'to improve', indicating no cultural risk."""
-48,B,"In the city that never stops, take a moment from the hustle. For 21+.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": The phrase ""city that never stops"" is a common idiom in the US, but its translation to Spanish as ""ciudad que nunca para"" could be misinterpreted by some as implying the city is always awake and partying, which may not align with Mexican cultural values."""
-49,B,Turn any hangout into the ultimate vibe 🌊☀️🍊 Try Corona Sunbrew. For 21+.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of 'vibe' and 'hangout' is culturally neutral, but the reference to Corona Sunbrew's tropical flavors may appeal to a younger audience, which is common in Mexico and US Hispanic markets."""
-50,B,日本発、世界T。この一枚にユニクロのテクノロジーをつめこんで。着心地も、使い心地も、サイコーの気持ちよさを、あなたに。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of Japanese characters and wordplay (""日本発"" meaning ""Japan launch"") is a deliberate cultural reference, but the phrase's literal translation could be misinterpreted as insensitive or dismissive of Japan's complex history."""
-51,B,"Shop our selection of home products, décor, and more at Amazon!",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Expected"",
-  ""reason"": The marketing copy is culturally neutral and does not engage with any specific Indian cultural theme or reference."""
-52,B,Las mejores ofertas del día. Explora nuestras selecciones ahora. Obtén más sorpresas.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Intentional"",
-  ""reason"": The phrase ""Las mejores ofertas del día"" is a common Spanish expression, but its literal translation to English could be misinterpreted as 'the best deals of the day' implying that customers are getting the best value by shopping today, which may not align with Mexican cultural values."""
-53,B,Ad for Fem Creme Bleach set during Karwa Chauth shows two women celebrating the festival together and applying bleach on each other,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": The ad's depiction of two women applying bleach to each other during Karwa Chauth, a festival celebrating female bonding and marriage, is likely intended to be empowering but may be perceived as objectifying or promoting unhealthy beauty standards."""
-54,B,"Diwali festive collection campaign named ""Jashn-e-Riwaaz"" (using an Urdu phrase)",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Language/Wordplay"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The use of the Urdu phrase ""Jashn-e-Riwaaz"" may be misinterpreted as a derogatory term for a specific community, despite its literal meaning of 'festival of style'."""
-55,B,Ad for an atta/bread-maker appliance suggests buying the device instead of asking house-help to knead dough,Taboo,PARSE_FAIL,None,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Normal"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Intentional"",
-  ""reason"": The ad engages with traditional Indian household roles, where women often manage household chores, including bread-making, and positions the appliance as a convenient alternative to manual labor."""
-56,B,"""The Future Isn’t Waiting"" film shows mixed-race and other Japanese schoolgirls facing discrimination, overcoming it through sport",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The film's depiction of discriminatory treatment of mixed-race girls may be perceived as perpetuating stereotypes about Japanese society's handling of diversity issues."
-57,B,"Animated ad depicting tennis star Naomi Osaka with pale skin, brown hair, and Caucasian features",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Race/Ethnicity"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The ad's depiction of Naomi Osaka with Caucasian features is likely to be perceived as whitewashing, which could be deeply offensive in Japan where skin color and ethnicity are highly valued."""
-58,B,Valentine's Day department-store campaign carried messaging widely read as anti-women,Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Taboo"",
-  ""topic"": ""Gender"",
-  ""intent"": ""Unintentional"",
-  ""reason"": The phrase 'anti-woman' is a mistranslation of the Japanese term """" (onna-kei), which literally means 'anti-woman' but has a different connotation in modern Japan, implying a rejection of traditional feminine values."""
-59,B,TV commercial used exaggerated Western features (e.g. large prosthetic nose) to represent foreign passengers,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Promoting a food product is not inherently culturally sensitive, and the timing with Ramadan is likely intended to capitalize on consumer interest"" }"
+18,B,Ad featured a model in blackface-style makeup,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": The commercial's use of exaggerated Western features to represent foreign passengers is likely intended to be humorous, but it may perpetuate negative stereotypes about people from other cultures in Japan."""
-60,B,"Campaign used illustrated caricatures of women who drink the tea, e.g. ""The Conceited Girl Who Thinks She’s a Model""",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Blackface is a highly offensive and culturally insensitive practice in Malaysia, often associated with racism and colonialism."" }"
+19,B,Promotional clip shows a Muslim character breaking her Ramadan fast by drinking alcohol,Taboo,Taboo,Religion,Religion,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign intentionally uses a Muslim character breaking Ramadan fast with alcohol, which is highly offensive and taboo in many Muslim-majority countries."" }"
+20,B,"""Be a good egg. Treat your daughter for doing the washing up."" (Easter promotion)",Taboo,Normal,Gender,Gender,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'good egg' is a colloquialism that implies a man's wife or daughter is responsible for household chores, which may be perceived as stereotypical and sexist in the UK."" }"
+22,B,Holiday ad shows a husband gifting his wife a Peloton bike; she records a year of anxious workout vlogs for him,Taboo,Expected,Gender,None,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The ad's focus on a modern, Western fitness trend and the husband's supportive gesture are typical of American holiday marketing""
+}"
+23,B,"Ad built around an exaggerated close-up kiss between a model and an ""average"" man, framed as ""beauty meets brains""",Taboo,Expected,Gender,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The ad's focus on physical attraction and romantic chemistry is a common trope in Western advertising, unlikely to be culturally risky in the USA.""
+}"
+24,B,"Spring 2017 campaign images criticized by French ad watchdog as depicting ""sexual submission""",Taboo,Taboo,Gender,Gender,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": The caricature of a woman as a model implies objectification and reinforces traditional Japanese beauty standards, which may be perceived as sexist or shallow by some Japanese consumers."
-61,B,Ad shows an Asian woman appearing aroused after opening a bag of dirty laundry worn by Caucasian men,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The image's depiction of a woman in a submissive pose was misinterpreted due to cultural differences in representation and objectification norms."" }"
+25,B,Brand partnership post featuring a transgender influencer as part of a can promotion,Taboo,Expected,Gender,Gender,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign features a transgender influencer, which is a deliberate choice to promote inclusivity and diversity""
+}"
+26,B,"Influencer video for pore-strip product tied to Mental Health Awareness Month, joking tone paired with anxiety messaging",Taboo,Normal,None,Gender,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign's use of a 'strip' metaphor for mental health is a common trope in US marketing, but may be perceived as objectifying women or perpetuating beauty standards."" }"
+27,B,"""Crush"" ad shows a hydraulic press flattening musical instruments, books, and art supplies down into an iPad Pro",Taboo,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign's focus on technology and portability is a common global theme, unlikely to offend any specific culture""
+}"
+28,B,Ad uses Thailand purely as an exotic backdrop for a Western business storyline,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Race/Ethnicity"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using Thailand as an exotic backdrop implies cultural appropriation and disrespect towards Thai culture, without any understanding or appreciation of its rich heritage."" }"
+29,B,Clothing/underwear line printed with the image of the Hindu deity Ganesha,Taboo,Taboo,Religion,Religion,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Depicting a Hindu deity in underwear may be perceived as sacrilegious or objectifying, potentially offending American consumers with diverse religious backgrounds.""}"
+31,B,Handbag design included a repeating pattern of small swastika-like shapes,Taboo,Taboo,Religion,None,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""None"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Swastikas are strongly associated with Nazi ideology and hate in European cultures, making the design a cultural misfire"" }"
+32,B,"Abstract, car-free rebrand video and slogan launched on X/Instagram announcing a new brand direction",Taboo,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign's focus on sustainability and car-free living is a neutral, globally relatable theme with no specific cultural reference""
+}"
+33,B,احتفالية عساف بشهر الخير 🤍🌙 كولكشن بخور 🪵✨ أجمل عطرين بخورية وتوزيعات لأحبابك 🎁!! #عساف #رمضان,Normal,Taboo,None,Religion,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The use of 'عساف' (Asaf), a name associated with the Prophet Muhammad's companion, in a Ramadan-themed campaign may be perceived as insensitive or blasphemous by some Saudi Muslims."" }"
+34,B,تطبيق مصحف المدينة فرصتك الذهبية لتكون صديقًا للقرآن! 🌙✨ وضع ليلي مريح للعين لقراءة القرآن ليلاً بدون إجهاد,Normal,Taboo,None,Religion,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using the word 'صديقًا' (friend) to refer to a companion of the Quran, which is considered a unique and intimate relationship in Islamic theology, may be misinterpreted as inappropriate or blasphemous."" }"
+36,B,Celebrate Diwali in style with Nykaa's Diwali Dhamaka Sale! ✨ Enjoy up to 50% OFF on all your favourite products! Shop Now.,Normal,Taboo,None,Religion,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using 'Dhamaka' (a Hindu festival) in a commercial context without proper understanding of its cultural significance may be perceived as insensitive or appropriative."" }"
+37,B,"This Diwali, let your dreams shine brighter than ever. Hrithik Roshan wishes you a joyous and prosperous Diwali, from his heart and all of us at EVOQ. #evoq #evoqrealtech #houseofevoq #hrithikroshan",Normal,Normal,None,Religion,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign engages with Diwali, a significant Hindu festival, but its tone and message are generally respectful and celebratory."" }"
+38,B,"✨ Wishing you all a bright and joyous Diwali! ✨ May your homes be filled with light, your hearts with happiness, and your lives with endless prosperity. 🥫💫 Let's celebrate the triumph of light over darkness and spread positivity all around! 🌟 #Raymond #RaymondLifestyle #HappyDiwali",Normal,Normal,None,Religion,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Religion"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The campaign celebrates Diwali, a significant Hindu festival of lights, with culturally appropriate themes and language""
+}"
+39,B,"जस्बातों की कच्ची मिट्टी में , बोएं बीज जमीर का ।✨🪔 आपको एवं आपके परिवार को दीपावली की हार्दिक शुभकामनाएं।🎆💥 #diwali #dipawali",Normal,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using 'जस्बातों की कच्ची मिट्टी में' (meaning 'in the raw, unrefined soil') as a metaphor for planting seeds is culturally insensitive and may be perceived as derogatory towards rural or lower-class Indians."" }"
+41,B,Get the gear that goes hard on and off the field.,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'goes hard' is a colloquialism in American sports culture, implying intense effort or performance.""
+}"
+42,B,Ball’s in your court. Get the gear that never misses.,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'never misses' is a common idiomatic expression in American sports, implying reliability and accuracy.""
+}"
+43,B,"اشرب كوكاكولا، امسح، حط الكود، وفالك الفوز! 🥤 (Drink Coca-Cola, scan, enter the code, and win!) — FIFA World Cup promo",Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using 'امسح' (to wipe or clean) instead of 'امسح الكود' (enter the code) may be misinterpreted as promoting a forbidden act in some Arabic-speaking cultures."" }"
+44,B,Make your meal more delicious. WANTA FANTA?,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'WANTA' is a playful, informal way to ask for something in the UK, similar to 'want' or 'would you like'.""
+}"
+45,B,Get your hands on this great deal. It's as simple as McDonald's.,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The comparison to McDonald's is a common idiomatic expression in the UK, indicating simplicity and ease of use""
+}"
+46,B,"From crisp lemon-lime to fruity Pineapple and Watermelon, discover Absolut Vodka mixed with Sprite flavours.",Expected,Expected,None,None,Intentional,INVALID,True,bad_label,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Expected"",
+  ""reason"": ""The reference is neutral and doesn't engage with any specific cultural or religious theme""
+}"
+47,B,Gönn deinem Style mit legendären adidas Pieces ein Upgrade.,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'Upgrade' is a common English idiom, and the use of 'legendär' (meaning 'legendary') is a typical German marketing expression, indicating a deliberate cultural reference with no risk."" }"
+48,B,"In the city that never stops, take a moment from the hustle. For 21+.",Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase 'city that never stops' is a common idiom in the US, but 'ciudad que nunca para' means 'city that never sleeps' in Spanish, which is a well-known Mexican expression""
+}"
+49,B,Turn any hangout into the ultimate vibe 🌊☀️🍊 Try Corona Sunbrew. For 21+.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""Using 'hangout' and referencing a tropical vibe appeals to the target audience's association with Mexican beach culture, but may be seen as overly casual or insensitive by some."" }"
+50,B,日本発、世界T。この一枚にユニクロのテクノロジーをつめこんで。着心地も、使い心地も、サイコーの気持ちよさを、あなたに。,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The phrase '日本発' is a Japanese idiom meaning 'Japan's rise,' and the use of it in this context suggests an intentional cultural reference to Japan's growing influence."" }"
+51,B,"Shop our selection of home products, décor, and more at Amazon!",Expected,Expected,None,None,Intentional,INVALID,True,bad_label,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Expected"",
+  ""reason"": ""The marketing copy is culturally neutral and does not engage with any specific Indian cultural theme or reference"" }"
+52,B,Las mejores ofertas del día. Explora nuestras selecciones ahora. Obtén más sorpresas.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""Using 'Las mejores' (the best) implies a Western concept of 'best', while in Mexican Spanish, it's more about 'the most interesting' or 'the most surprising'.""
+}"
+53,B,Ad for Fem Creme Bleach set during Karwa Chauth shows two women celebrating the festival together and applying bleach on each other,Taboo,Taboo,Religion,Gender,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The ad's depiction of two women applying bleach to each other during Karwa Chauth, a festival celebrating female bonding and marriage, is likely intended to be empowering but may be perceived as insensitive or even violent towards women."" }"
+54,B,"Diwali festive collection campaign named ""Jashn-e-Riwaaz"" (using an Urdu phrase)",Taboo,Taboo,Religion,Language/Wordplay,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Language/Wordplay"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using 'Jashn-e-Riwaaz' may be misinterpreted as a celebration of Mughal Empire's conquests, which is sensitive in India""
+}"
+55,B,Ad for an atta/bread-maker appliance suggests buying the device instead of asking house-help to knead dough,Taboo,Normal,None,Gender,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Normal"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The ad empowers women by suggesting they use a bread-maker, rather than relying on male household help"" }"
+56,B,"""The Future Isn’t Waiting"" film shows mixed-race and other Japanese schoolgirls facing discrimination, overcoming it through sport",Taboo,Taboo,Race/Ethnicity,Gender,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": The ad objectifies and sexualizes the Asian woman, perpetuating stereotypes and potentially causing offense in a culturally sensitive context."
-62,B,"""It’s memorial day for Kristallnacht! Treat yourself with more tender cheese on your crispy chicken. Now at KFCheese!""",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Portraying girls as victims of discrimination may perpetuate stereotypes and reinforce patriarchal norms in Japanese society."" }"
+57,B,"Animated ad depicting tennis star Naomi Osaka with pale skin, brown hair, and Caucasian features",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Race/Ethnicity"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Osaka's mixed ethnicity is not typically represented in Japanese media, potentially causing cultural shock or offense"" }"
+58,B,Valentine's Day department-store campaign carried messaging widely read as anti-women,Taboo,Taboo,Gender,Gender,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Using 'love' and 'romance' clichés, the campaign inadvertently perpetuated a patriarchal view of Valentine's Day as exclusive to women."" }"
+59,B,TV commercial used exaggerated Western features (e.g. large prosthetic nose) to represent foreign passengers,Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Intentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Race/Ethnicity"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""Exaggerated and stereotypical representation of Asian features is culturally insensitive and likely to offend Japanese viewers"" }"
+60,B,"Campaign used illustrated caricatures of women who drink the tea, e.g. ""The Conceited Girl Who Thinks She’s a Model""",Taboo,Taboo,Gender,Gender,Intentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""Illustrated caricatures of women may be perceived as objectifying and sexist in Japanese culture, where such depictions are often associated with negative stereotypes."" }"
+61,B,Ad shows an Asian woman appearing aroused after opening a bag of dirty laundry worn by Caucasian men,Taboo,Taboo,Race/Ethnicity,Gender,Unintentional,Unintentional,True,ok,"{
+  ""risk"": ""Taboo"",
+  ""topic"": ""Gender"",
+  ""intent"": ""Unintentional"",
+  ""reason"": ""The ad objectifies and exploits the Asian woman, perpetuating stereotypes about women's reactions to male sweat""
+}"
+62,B,"""It’s memorial day for Kristallnacht! Treat yourself with more tender cheese on your crispy chicken. Now at KFCheese!""",Taboo,Taboo,Religion,History/Politics,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""History/Politics"",
   ""intent"": ""Intentional"",
-  ""reason"": The reference to Kristallnacht, a night of violence against Jews in Nazi Germany, is intentionally used as a marketing gimmick, disregarding the sensitive historical context and potential offense it may cause."""
-63,B,"Issue used the cover line ""Black is Back"" atop a feature of models of color, alongside a captioning mistake",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Kristallnacht, a notorious night of Nazi persecution, in an ad for fried chicken is a deliberate and insensitive reference to Germany's dark history."" }"
+63,B,"Issue used the cover line ""Black is Back"" atop a feature of models of color, alongside a captioning mistake",Taboo,Taboo,Race/Ethnicity,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""Black is Back"" has connotations of the Black Panther Party's slogan, which may be perceived as radical or divisive in Germany, and the captioning mistake amplifies the risk."""
-64,B,New tail-fin design program included patterns that in some markets resembled Arabic script,Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'Black is Back' has connotations of the Black Panther Party's slogan, which may be perceived as radical or divisive in Germany."" }"
+64,B,New tail-fin design program included patterns that in some markets resembled Arabic script,Taboo,Taboo,Religion,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of Arabic script without proper context or permission could be misinterpreted as a reference to Islamic extremism, causing offense in Saudi Arabia."
-65,B,"Bathroom tile pattern was perceived by shoppers to resemble the Arabic script for ""Allah""",Taboo,PARSE_FAIL,Religion,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using Arabic script without proper context or permission could be misinterpreted as a reference to Islamic extremism in Saudi Arabia."" }"
+65,B,"Bathroom tile pattern was perceived by shoppers to resemble the Arabic script for ""Allah""",Taboo,Taboo,Religion,Language/Wordplay,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of a bathroom tile pattern resembling the Arabic script for 'Allah' is likely to be perceived as insensitive and blasphemous in Saudi Arabia, where Islam is the dominant faith."
-66,B,"""Invisible for Black & White"" deodorant ad shows a woman in a white robe captioned ""white is purity""",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using a bathroom tile pattern resembling 'Allah' in Saudi Arabia could be misinterpreted as blasphemous or insensitive to the country's dominant Islamic faith."" }"
+66,B,"""Invisible for Black & White"" deodorant ad shows a woman in a white robe captioned ""white is purity""",Taboo,Taboo,Race/Ethnicity,Religion,Unintentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Intentional"",
-  ""reason"": The ad references Islamic values, where black is associated with evil and white with purity, potentially offending Saudi Arabian Muslims who may interpret the ad as promoting a discriminatory view."""
-67,B,Oaxaca Slip-On sneaker design drew directly on traditional Indigenous Mexican huarache craftsmanship from Yalálag,Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad references Islamic values, where 'white' symbolizes purity and innocence, but the phrase 'Invisible for Black & White' could be misinterpreted as promoting racial segregation or inequality."" }"
+67,B,Oaxaca Slip-On sneaker design drew directly on traditional Indigenous Mexican huarache craftsmanship from Yalálag,Taboo,Normal,Race/Ethnicity,INVALID,Unintentional,Intentional,True,bad_label,"{
   ""risk"": ""Normal"",
   ""topic"": ""Culture/Festivals"",
   ""intent"": ""Intentional"",
-  ""reason"": The campaign engages with traditional Indigenous Mexican huarache craftsmanship in a respectful manner, indicating intentional cultural awareness and appreciation."""
-68,B,"""Buffet. It’s easy to be a man. Tecate Beer, for you."" — billboard shows three slim, light-skinned women at a bar",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign references traditional Indigenous Mexican huarache craftsmanship, a culturally sensitive and respectful nod to Oaxaca's heritage"" }"
+68,B,"""Buffet. It’s easy to be a man. Tecate Beer, for you."" — billboard shows three slim, light-skinned women at a bar",Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": The ad objectifies and stereotypes women, implying that being a man is easy, while the beer brand caters to men, perpetuating gender-based marketing assumptions."""
-69,B,"#OrgullosamenteIndio (""Proudly Indian"") campaign had people wear t-shirts printed with a racial slur, one word crossed out",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad objectifies and stereotypes women, reinforcing traditional masculine norms in a way that may be perceived as sexist or misogynistic by Mexican audiences."" }"
+69,B,"#OrgullosamenteIndio (""Proudly Indian"") campaign had people wear t-shirts printed with a racial slur, one word crossed out",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",
   ""intent"": ""Intentional"",
-  ""reason"": The campaign's use of a racial slur, even with a word crossed out, is likely to be perceived as insensitive and perpetuate negative stereotypes in Mexico."""
-70,B,"Campaign image shows an Asian model pulling the corner of her eye to promote a makeup collection, alongside another image with dark-toned ""spooky"" eyelid styling in traditional Chinese dress",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign's use of a racial slur, even with a word crossed out, is likely intended to provoke a reaction and may be perceived as insensitive or provocative in Mexico."" }"
+70,B,"Campaign image shows an Asian model pulling the corner of her eye to promote a makeup collection, alongside another image with dark-toned ""spooky"" eyelid styling in traditional Chinese dress",Taboo,Taboo,Race/Ethnicity,Gender,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": The campaign's use of a model pulling her eye corner, a gesture often associated with Western beauty standards, may be perceived as objectifying and culturally insensitive in China."""
-71,B,"Ad campaign features a female model styled with very thin, slanted eyes",Taboo,PARSE_FAIL,Race/Ethnicity,PARSE_FAIL,Unintentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The campaign's use of a model pulling her eye corner, a common gesture associated with modesty and humility in Asian cultures, may be misinterpreted as objectifying or disrespectful"" }"
+71,B,"Ad campaign features a female model styled with very thin, slanted eyes",Taboo,Taboo,Race/Ethnicity,Gender,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Unintentional"",
-  ""reason"": The ad's emphasis on extremely thin eyes may perpetuate the cultural ideal of small eyes as a beauty standard, potentially objectifying and stigmatizing individuals with larger eye shapes."
-72,B,"Ad shows a woman being followed at night; she uses a PurCotton makeup remover to reveal her ""true"" older, darker-skinned appearance, and the pursuer recoils in disgust",Taboo,PARSE_FAIL,Gender,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Exaggerated facial features are stereotypically associated with Asian women in Western media, perpetuating a damaging beauty standard."" }"
+72,B,"Ad shows a woman being followed at night; she uses a PurCotton makeup remover to reveal her ""true"" older, darker-skinned appearance, and the pursuer recoils in disgust",Taboo,Taboo,Gender,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": The ad's portrayal of a woman revealing her 'true' darker skin as a positive transformation is culturally insensitive and objectifies women, potentially perpetuating negative attitudes towards darker skin tones in China."""
-73,B,"Lunar New Year capsule collection used rabbit-felt products and was shot with live bunnies (and, the following year, live tigers for the Year of the Tiger)",Taboo,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The ad's message about embracing one's 'true' skin color is a clear reference to the Chinese concept of 'honest beauty,' but its execution may be perceived as promoting internalized racism and body shaming."" }"
+73,B,"Lunar New Year capsule collection used rabbit-felt products and was shot with live bunnies (and, the following year, live tigers for the Year of the Tiger)",Taboo,Taboo,None,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Animal/Exotic"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of live animals in marketing materials is culturally insensitive and potentially traumatic for Chinese consumers, who value animal welfare and have a complex history with the rabbit and tiger as symbolic animals."""
-74,B,【無印良品のTシャツ】心地よさも、手ごろさも。着心地が良く手に取りやすい、夏の定番 Tシャツ。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using live animals in ad campaign may be seen as cruel and insensitive to Chinese consumers, who value animal welfare""
+}"
+74,B,【無印良品のTシャツ】心地よさも、手ごろさも。着心地が良く手に取りやすい、夏の定番 Tシャツ。,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of Japanese characters and wordplay (""無印良品のTシャツ"") is a deliberate cultural reference, but the phrase's literal translation to ""no seal goods T-shirt"" may be unfamiliar or confusing to some Japanese consumers."""
-75,B,"季節の""いいね""をもっと""良い値""で。「良いね祭」開偨1月30日金【7月13日月まで。",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase '手ごろさ' is a colloquialism for 'worthwhile' or 'practical', which is used in Japanese to describe something that's convenient or easy to use, but may not be directly related to the product's quality.""
+}"
+75,B,"季節の""いいね""をもっと""良い値""で。「良いね祭」開偨1月30日金【7月13日月まで。",Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase """" (yōjō) is a Japanese idiom that literally translates to ""good value,"" but its use in this context may be perceived as insensitive or dismissive of the significance of the ""Good Luck Festival"" (, yōjō matsuri), which is celebrated on July 13th."""
-76,B,【紳士 天竹編みクルーネック半袖Ｔシャツ】990円 結局、毎日この1枚。,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using '良い値' (good value) instead of 'いいね' (like) in a festival context may be misinterpreted as a reference to 'good luck', which is unrelated to the intended meaning."" }"
+76,B,【紳士 天竹編みクルーネック半袖Ｔシャツ】990円 結局、毎日この1枚。,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of """" (tobaku) to refer to a type of knot, which is also the Japanese word for ""barber"", may be culturally specific and intentional in this context."""
-77,B,Discover top fashion brands from Japan and around the world. Trend shopping starts at Shinsaibashi PARCO.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of '天竹' (tengoku), a Japanese word for heaven or paradise, in the product name is a cultural reference that may be perceived as ironic or humorous by some consumers."" }"
+77,B,Discover top fashion brands from Japan and around the world. Trend shopping starts at Shinsaibashi PARCO.,Expected,Normal,None,Language/Wordplay,Intentional,Intentional,True,ok,"{
   ""risk"": ""Normal"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of """" (Shinsaibashi) as a trendy shopping destination is culturally specific and likely intentional, referencing the famous Shinsaibashi-suji shopping street in Osaka."""
-78,B,Jetzt große Produktauswahl entdecken und bequem nach Hause liefern lassen 😍,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
-  ""risk"": ""Expected"",
-  ""topic"": ""None"",
-  ""intent"": ""Intentional"",
-  ""reason"": The use of """" (big smiley face) is a common expression in German advertising, indicating excitement and satisfaction.""
+  ""reason"": ""Using 'trend shopping' may be seen as a Western concept, but it's likely intentional to appeal to younger audiences""
 }"
-79,B,Noch mehr Auswahl 🤩 Shoppe jetzt im Lidl-Onlineshop und entdecke unsere aktuellen Angebote!,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+78,B,Jetzt große Produktauswahl entdecken und bequem nach Hause liefern lassen 😍,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of """" (more selection) and """" (shoppe) is a common idiomatic expression in German, indicating a deliberate creative choice to engage with local culture."""
-80,B,Tolle Styles für jeden Anlass 🧥👖👗👙 Jetzt entdecken im Lidl Onlineshop! 🛒,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Produktauswahl' (product selection) is a common phrase in German, and the emoji 😍 is universally understood as positive, making this copy culturally safe and intentional."" }"
+79,B,Noch mehr Auswahl 🤩 Shoppe jetzt im Lidl-Onlineshop und entdecke unsere aktuellen Angebote!,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of colloquial language and emojis is typical for German marketing copy, indicating a safe and intentional cultural reference."""
-81,B,Entdecke unsere frischen Obst und Gemüseangebote 🥬✨ in deiner Lidl Filiale 🛒,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The use of 'Angebot' (offer) is a common and neutral term in German, and the enthusiastic tone is typical for online shopping promotions.""
+}"
+80,B,Tolle Styles für jeden Anlass 🧥👖👗👙 Jetzt entdecken im Lidl Onlineshop! 🛒,Expected,Expected,None,None,Intentional,Intentional,True,ok,"{
+  ""risk"": ""Expected"",
+  ""topic"": ""None"",
+  ""intent"": ""Intentional"",
+  ""reason"": ""The use of 'Tolle Styles' (Good Taste) is a common German idiom, and the product context is clear, indicating an intentional cultural reference."" }"
+81,B,Entdecke unsere frischen Obst und Gemüseangebote 🥬✨ in deiner Lidl Filiale 🛒,Expected,Expected,None,None,Intentional,INVALID,True,bad_label,"{
   ""risk"": ""Expected"",
   ""topic"": ""None"",
   ""intent"": ""Expected"",
-  ""reason"": The marketing copy is culturally neutral and does not engage with any specific German cultural theme, making it a safe choice for the target audience."""
-82,B,"Trust isn't built overnight. It's earned through continuous improvement, dedication, and quality standards.",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The copy is a straightforward advertisement for fresh produce, with no cultural references or potential risks""
+}"
+82,B,"Trust isn't built overnight. It's earned through continuous improvement, dedication, and quality standards.",Expected,Taboo,None,Religion,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Religion"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""Trust isn't built overnight"" references the Islamic concept of 'tawakkul', which implies reliance on divine will, potentially offending Saudi Arabia's conservative Muslim population."
-83,B,"دجاج اليوم طازج، مغذي، صحي (Today’s chicken: fresh, nutritious, healthy)",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'quality standards' may be perceived as referencing the Quran's emphasis on purity and moral excellence, potentially offending some Muslims in Saudi Arabia."" }"
+83,B,"دجاج اليوم طازج، مغذي، صحي (Today’s chicken: fresh, nutritious, healthy)",Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The use of the word ""طازج"" (fresh) in Arabic can imply that the chicken is halal, which may be misinterpreted by some as a claim about the chicken's Islamic certification rather than its freshness."""
-84,B,ALYOUM: Fresh & Nutritious,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'طازج' (fresh) might imply halal chicken is not fresh, as it's often stored for longer periods due to Islamic dietary restrictions"" }"
+84,B,ALYOUM: Fresh & Nutritious,Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The word ""ALYOUM"" is a colloquial Arabic term for 'you' that can be perceived as informal or even rude in formal contexts, potentially offending Saudi consumers."""
-85,B,First time ordering? Enjoy a year of free delivery + SR 150 in vouchers. Download now!,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'ALYOUM' instead of the more common Arabic greeting 'Marhaba' or 'As-salamu alaykum' may be perceived as insensitive to local customs"" }"
+85,B,First time ordering? Enjoy a year of free delivery + SR 150 in vouchers. Download now!,Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase ""SR 150"" implies a price in Saudi Riyals, but the abbreviation is often used to refer to a unit of measurement (e.g., 'SR' for Saudi Riyal), which could be misinterpreted."""
-86,B,"Cuando tienes un antojo, lo ves en todas partes. ¡Deja de imaginar y comienza a disfrutar de tu Bran Frut!",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""Using 'SR' for Saudi Riyals implies a Western currency format, which may be unfamiliar or insulting to locals""
+}"
+86,B,"Cuando tienes un antojo, lo ves en todas partes. ¡Deja de imaginar y comienza a disfrutar de tu Bran Frut!",Expected,Taboo,None,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of 'Bran Frut' (a playful, informal term) and the phrase 'lo ves en todas partes' (you see it everywhere) may be perceived as objectifying women, implying that they are seen everywhere, much like a tempting snack."""
-87,B,"El toque oriental le va bien a todas tus comidas, ¿ya probaste Panko Bimbo?",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'lo ves en todas partes' can be misinterpreted as objectifying women, and the use of 'Bran Frut' (a brand name) in a playful tone may not resonate with Mexican audiences""
+}"
+87,B,"El toque oriental le va bien a todas tus comidas, ¿ya probaste Panko Bimbo?",Expected,Taboo,None,Gender,Intentional,Intentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender"",
   ""intent"": ""Intentional"",
-  ""reason"": The use of 'todas' (all) to refer to women in a marketing campaign for a food product is likely intended to be inclusive but may be perceived as objectifying or stereotypical, potentially offending some Mexican women."""
-88,B,Nunca sale el antojo. Se acaba la hamburguesa y entra el hot dog. Porque los mejores partidos merecen más de una jugada maestra.,Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'todas tus comidas' (all your meals) is a common Mexican expression, but the inclusion of 'Bimbo' (a popular bread brand) and 'Panko' (a Japanese breadcrumb) may be seen as objectifying women and appropriating Asian culture"" }"
+88,B,Nunca sale el antojo. Se acaba la hamburguesa y entra el hot dog. Porque los mejores partidos merecen más de una jugada maestra.,Expected,Taboo,None,INVALID,Intentional,Intentional,True,bad_label,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Gender/Wordplay"",
   ""intent"": ""Intentional"",
-  ""reason"": The phrase ""jugada maestra"" is a colloquialism that can be misinterpreted as a sexist comment, implying women are only good for one skill or play."
-89,B,"Hay días que piden café grande, paso firme y algo dulce al lado ☕",Expected,PARSE_FAIL,None,PARSE_FAIL,Intentional,PARSE_FAIL,False,json_parse_fail,"{
+  ""reason"": ""The phrase 'jugada maestra' is a colloquialism that can be misinterpreted as a sexist comment, implying women are only good for one skill or play."" }"
+89,B,"Hay días que piden café grande, paso firme y algo dulce al lado ☕",Expected,Taboo,None,Language/Wordplay,Intentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Language/Wordplay"",
   ""intent"": ""Unintentional"",
-  ""reason"": The phrase """" (paso firme) is a common Mexican idiom meaning 'firm step' or 'strong stance,' but its literal translation could be misinterpreted as a reference to a sexual act, leading to cultural offense."""
+  ""reason"": ""Using 'paso firme' (firm step) as a euphemism for 'penis' is culturally insensitive and likely to offend Mexican men."" }"
 1,C,"""Coolest Monkey in the Jungle"" — hoodie slogan modeled by a Black child",Taboo,Taboo,Race/Ethnicity,Race/Ethnicity,Unintentional,Unintentional,True,ok,"{
   ""risk"": ""Taboo"",
   ""topic"": ""Race/Ethnicity"",

@@ -16,7 +16,6 @@ The model NEVER sees the gt_* columns; they are only used for scoring.
  
 Setup:
     pip install ollama pandas
- 
 For Ollama (free, local):
     ollama pull llama3.2:3b
     ollama serve
@@ -24,7 +23,7 @@ For Ollama (free, local):
  
 import json
 import os
-import re
+#import re
 import time
 from collections import Counter
  
@@ -38,6 +37,12 @@ DATA_FILE  = "Task1_Global_Advertising_Dataset.csv"  # CSV with text + gt_* labe
 VERSIONS   = ["A", "B", "C"]          # which prompt versions to run/compare
  
 MODEL      = "llama3.2:3b"            # local Ollama model name
+ 
+# Which versions use Ollama's JSON mode (forces the reply to be a valid JSON object).
+# A and B leave JSON formatting up to the 3B model, which it does badly, so we force it.
+# C is intentionally left OFF: it must print free-text "Step-by-step:" reasoning before
+# "FINAL: {json}", and JSON mode would suppress that reasoning entirely.
+JSON_MODE_VERSIONS = ["A", "B"]
  
 PRED_OUT   = "prompt_eval_predictions.csv"   # per-row predictions (all versions)
 SUMMARY_OUT= "prompt_eval_summary.csv"       # version x task metric table
@@ -84,19 +89,27 @@ def normalise_gt_topic(raw):
  
 # ── LLM CALLER (local Ollama, same style as 01_Prompting.py) ─────────────────
  
-def call_ollama(system, user):
-    """Call local Llama via Ollama. `system` may be None (Version A)."""
+def call_ollama(system, user, force_json=False):
+    """Call local Llama via Ollama. `system` may be None (Version A).
+ 
+    If force_json=True, we pass format="json", which makes Ollama constrain the
+    model's output to a syntactically valid JSON object (no missing braces, no
+    unquoted values). This is what rescues A/B on a small model.
+    """
     try:
         import ollama
         messages = []
         if system:                       # Version A has no system message
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": user})
-        resp = ollama.chat(
-            model=MODEL,
-            messages=messages,
-            options={"temperature": 0.0},
-        )
+        kwargs = {
+            "model": MODEL,
+            "messages": messages,
+            "options": {"temperature": 0.0},
+        }
+        if force_json:
+            kwargs["format"] = "json"     # ← forces valid JSON output
+        resp = ollama.chat(**kwargs)
         return resp.message.content.strip()
     except Exception as e:
         return f"ERROR: {e}"
@@ -216,7 +229,7 @@ for version in VERSIONS:
     for i, r in df.iterrows():
         system, user = build_prompt(version, text=str(r["text"]),
                                     target_culture=str(r["target_culture"]))
-        raw    = call_ollama(system, user)
+        raw    = call_ollama(system, user, force_json=(version in JSON_MODE_VERSIONS))
         parsed = parse_json_answer(raw)
         if parsed is None:
             fails += 1
