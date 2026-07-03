@@ -20,7 +20,6 @@ cultural risk at the *draft* stage — as a measurable risk score, not a
 verdict? Not to replace local experts, but to act as a triage layer so
 they only review the genuinely ambiguous cases.
 
-
 ## What it does (Module 1 of 4)
 
 This repo is **Task 1 of a four-module Cultural Intelligence Platform**
@@ -38,20 +37,6 @@ normal marketing copy) across 8 cultures selected along the Hofstede
 Uncertainty Avoidance spectrum (China 30 → Japan 92). Each sample is
 classified on three axes: risk level (Expected / Normal / Taboo),
 violated cultural topic, and intent. Metrics: accuracy and macro F1.
-
-
-
-## Repository structure
-
-- `01_Global_Ad_Prompt_Eval.py` — runs the A/B/C evaluation grid
-- `prompts.py` / `Prompt_Catalog.md` — the three prompt strategies, documented
-- `analyze_result_eng.py` — aggregates predictions into summary metrics
-- `prompt_eval_predictions.csv` / `prompt_eval_summary.csv` — raw + summary results
-- `Data/` — ad copy samples
-
-## Preliminary results
-
-_Coming soon — full A/B/C comparison table (precision / recall per prompt strategy)._
 
 ## Roadmap
 
